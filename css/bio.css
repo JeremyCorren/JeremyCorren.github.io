@@ -1,11 +1,13 @@
 body {
-	color: #67847C;
+	color: #94A6A2;
     font-family: "Big Caslon";
     letter-spacing: 1px;
     margin: 20px;
 }
 
-
+p.header {
+	color: #6C7A78;
+}
 
 a:link {
 	color: #73817E;
