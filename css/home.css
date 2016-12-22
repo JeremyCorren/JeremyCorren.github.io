@@ -5,7 +5,9 @@ body {
     margin: 20px;
 }
 
-
+#blurb {
+	color: #94A6A2;
+}
 
 a:link {
 	color: #73817E;
