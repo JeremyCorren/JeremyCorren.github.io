@@ -3,45 +3,40 @@
 	<head>
 		<title>Jeremy Corren</title>
 		<link rel="stylesheet" href="css/home.css">
+		<script type="text/javascript" src="js/jquery-1.4.1.min.js"></script>
+  		<script type="text/javascript" src="js/main.js"></script>
 	</head>
-	<body>
+	<body onunload="">
 		<article>
 			<header>
 				<p><strong>Jeremy Corren</strong></p>
 			</header>
-			<section id="blurb">
-				<p>
-					Composer, pianist, and<br>
-					developer from Los Angeles<br>
-					living in New York.
-				</p>
+			
+			<section id="meat">
+				<div id="blurb">
+					<p>
+						Composer, pianist, and<br>
+						developer from Los Angeles<br>
+						living in New York.
+					</p>
+				</div>
+				<nav id="page-nav">
+					<p>
+						<a class="text" href="about/about.html">About</a><br>
+						<a class="text" href="music/music.html">Music</a><br>
+					</p>
+				</nav>
+				<nav id="graphic-nav"
+					<p>
+						<a href="http://soundcloud.com/jeremycorren">
+							<img class="link" src="img/sc.png" width="40" height="40"/>
+						</a>
+						<a href="http://github.com/jeremycorren">
+							<img class="link" src="img/git.png" width="40" height="40"/>
+						</a>
+					</p>
+				</nav>
 			</section>
-			<nav id="page-nav">
-				<p>
-					<a href="about/about.html">About</a><br>
-					<a href="music/music.html">Music</a><br>
-					<a href="mailto:jeremycorrenmusic@gmail.com">Contact</a>
-				</p>
-			</nav>
-			<nav id="graphic-nav"
-				<p>
-					<a href="http://soundcloud.com/jeremycorren">
-						<img src="img/sc.png" width="40" height="40"
-						onmouseover="this.src='img/sc-hover.png'"
-						onmouseout="this.src='img/sc.png'" />
-					</A>
-					<a href="https://vimeo.com/178752485">
-						<img src="img/vim.png" width="40" height="40"
-						onmouseover="this.src='img/vim-hover.png'"
-						onmouseout="this.src='img/vim.png'" />
-					</A>
-					<a href="http://github.com/jeremycorren">
-						<img src="img/git.png" width="40" height="40"
-						onmouseover="this.src='img/git-hover.png'"
-						onmouseout="this.src='img/git.png'" />
-					</A>
-				</p>
-			</nav>
 		</article>
 	</body>
 </html>
