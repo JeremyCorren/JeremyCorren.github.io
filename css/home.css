@@ -1,3 +1,5 @@
+/* Formatting */
+
 body {
 	color: #67847C;
     font-family: "Big Caslon";
@@ -9,20 +11,30 @@ body {
 	color: #94A6A2;
 }
 
+/* Link opacity */
+
+a.text, img.link {
+	opacity: 1.0;
+    transition: opacity .4s ease-in-out;
+    -moz-transition: opacity .4s ease-in-out;
+    -webkit-transition: opacity .4s ease-in-out;
+}
+
+a.text:hover, img.link:hover {
+	opacity: 0.5;
+    transition: opacity .3s ease-in-out;
+    -moz-transition: opacity .3s ease-in-out;
+    -webkit-transition: opacity .3s ease-in-out;
+}
+
+/* Link formatting */
+
 a:link {
 	color: #73817E;
-	font-weight: 600;
+	font-weight: 550;
 	text-decoration: none;
 }
 
 a:visited {
 	color: #73817E;
-}
-
-a:hover {
-	color: #94BFB4;
-}
-
-a:active {
-	color: #94BFB4;
 }
