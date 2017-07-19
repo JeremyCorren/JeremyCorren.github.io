@@ -1,14 +1,18 @@
 /* Formatting */
 
 body {
-		color: #94A6A2;
+    color: #94A6A2;
     font-family: "Big Caslon";
     letter-spacing: 1px;
-    margin: 20px;
+    margin-left: 20px;
 }
 
 #title {
 	color: #6C7A78;
+}
+
+p.text {
+    margin-right: 880px;
 }
 
 /* Link opacity */
