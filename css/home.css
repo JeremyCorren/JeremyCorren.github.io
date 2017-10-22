@@ -11,6 +11,10 @@ body {
 	color: #94A6A2;
 }
 
+p.blurb {
+    margin-right: 1090px;
+}
+
 /* Link opacity */
 
 a.text, img.link {
