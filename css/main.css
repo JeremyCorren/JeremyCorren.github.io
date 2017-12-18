@@ -1,0 +1,44 @@
+body {
+	color: #67847C;
+    font-family: "Big Caslon";
+    letter-spacing: 1px;
+    margin-left: 20px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+	opacity: 1.0;
+    -webkit-transition: opacity .4s ease-in-out;
+       -moz-transition: opacity .4s ease-in-out;
+            transition: opacity .4s ease-in-out;
+}
+
+a:hover {
+	opacity: 0.5;
+    -webkit-transition: opacity .3s ease-in-out;
+       -moz-transition: opacity .3s ease-in-out;
+            transition: opacity .3s ease-in-out;
+    
+}
+
+a:link {
+	color: #667a79;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #667a79;
+}
+
+.header {
+    color: #5C6D6A !important;
+}
+
+.blurb {
+    color: #94A6A2;
+}
+
+.indent {
+    margin-left: 20px;
+}
